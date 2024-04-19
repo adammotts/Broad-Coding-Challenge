@@ -3,11 +3,12 @@ import requests
 ENDPOINT = 'https://api-v3.mbta.com'
 API_KEY = "63dc0dc1290b4c7ab113262929a05bcc"
 
+# Retrieves data from the MBTA API endpoint and route using the API key
 def get_data(
     endpoint: str,
     route: str,
     api_key: str
-) -> dict:
+) -> list[dict]:
     
     url = f'{endpoint}/{route}&api_key={api_key}'
     

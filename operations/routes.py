@@ -1,5 +1,6 @@
 from route import ENDPOINT, API_KEY, get_data
 
+# Get all routes that fall under the specified route types
 def get_routes_of_types(
     route_types: list[str]
 ) -> list[dict]:

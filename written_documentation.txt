@@ -1,3 +1,0 @@
-My first instinct for Question 1 is to rely on the API itself for filtering the data since Object Oriented Design taught me to utilize SRP, and limit my access to things that I don't need as much as possible in order to lessen risk of accidentally messing up something that I didn't intend on messing up.
-
-However, since my solution is supposed to be generalized to all problems, not just the MBTA, I decided to write my own algorithms since there are instances in which a public API does not give me access to pre-baked endpoints for the problems that I need to solve.

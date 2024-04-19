@@ -1,6 +1,7 @@
 from route import ENDPOINT, API_KEY, get_data
 
-def get_stops_of_route_id(
+# Get all stops that fall under the specified route IDs
+def get_stops_of_route_ids(
     route_id: list[str]
 ) -> list[dict]:
     
